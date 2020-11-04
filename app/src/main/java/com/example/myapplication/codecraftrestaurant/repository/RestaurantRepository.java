@@ -164,7 +164,7 @@ public class RestaurantRepository extends BaseRepository {
 
         } catch (JSONException e) {
             e.printStackTrace();
-            Log.e("JSON Exception", e.getMessage(), e);
+            Log.e("JSON Exception ", e.getMessage(), e);
         }
 
         return restaurantsList;
