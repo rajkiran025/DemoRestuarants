@@ -1,0 +1,5 @@
+
+m	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¼À™8ù…–•Ø.
+v	java:S116"[Rename this field "restaurant__list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áˆ³H8Ñ«ˆ•Ø.
+u
+java:S26373"XThis method's return value is marked "androidx.annotation.NonNull" but null is returned.(¥¹ï8µ¨Í·Ø.

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CodeCraftRestaurant</string>
+    <string name="map">Map</string>
+    <string name="no_network_provider">no network provider is enabled</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="dialog_title">GPS Setting</string>
+    <string name="gps_msg">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="dilog_posticve_text">Settings</string>
+    <string name="dilog_negative_text">Cancel</string>
+</resources>

@@ -1,0 +1,15 @@
+
+E
+java:S1185k"(Remove this method to simply inherit it.(ÍÙ÷¢8óå»û×.
+s
+java:S1450"VRemove the "toolbar" field and declare it as a local variable in the relevant methods.(ş®º—8ÈÒöÔ×.
+N
+java:S1068"1Remove this unused "isFromSetting" private field.(…Ë´“8šå´âØ.
+N
+java:S1068",Remove this unused "receiver" private field.(”—áœşÿÿÿÿ8óå»û×.
+E
+java:S1185‡"(Remove this method to simply inherit it.(¹Î¾8ÊùÎáØ.
+W
+java:S1161o":Add the "@Override" annotation above this method signature(ñ”Ò8’ø“ŞØ.
+J
+java:S1185y"(Remove this method to simply inherit it.(œƒƒ©ùÿÿÿÿ8šå´âØ.

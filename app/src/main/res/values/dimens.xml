@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_top_progress_indicator">15dp</dimen>
+    <dimen name="padding_bottom_progress_indicator">10dp</dimen>
+    <dimen name="progress_width_height">20dp</dimen>
+    <dimen name="progress_view_height">55dp</dimen>
+    <dimen name="list_padding">16dp</dimen>
+    <dimen name="list_header_start_margin">20dp</dimen>
+    <dimen name="list_header_bottom_margin">10dp</dimen>
+    <dimen name="header_text_size">16sp</dimen>
+    <dimen name="sub_text_size">12sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+</resources>

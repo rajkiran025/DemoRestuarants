@@ -1,0 +1,17 @@
+
+S
+java:S1905¸"5Remove this unnecessary cast to "SwipeRefreshLayout".(Œ½¡ó8î«ÚûØ.
+Y
+java:S1068."7Remove this unused "fusedLocationClient" private field.(®¿é‚ıÿÿÿÿ8¡ŸÂüØ.
+P
+java:S1172"2Remove this unused method parameter "permissions".(Ğå†Õ8î«ÚûØ.
+m	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÇöË8î«ÚûØ.
+o
+java:S1128""MRemove this unused import 'com.google.android.gms.location.LocationServices'.(’öñÿıÿÿÿÿ8¡ŸÂüØ.
+R
+java:S1905R"5Remove this unnecessary cast to "SwipeRefreshLayout".(ŠÚì8î«ÚûØ.
+b	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(İŒÜ±8î«ÚûØ.
+h
+java:S1128#"KRemove this unused import 'com.google.android.gms.tasks.OnSuccessListener'.(íå¡8¡ŸÂüØ.
+m
+java:S1301w"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8î«ÚûØ.
