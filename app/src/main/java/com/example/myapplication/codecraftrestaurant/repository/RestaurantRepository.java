@@ -1,6 +1,7 @@
 package com.example.myapplication.codecraftrestaurant.repository;
 
 import android.app.Application;
+import android.util.Log;
 
 import com.example.myapplication.codecraftrestaurant.model.Location;
 import com.example.myapplication.codecraftrestaurant.model.MapModel;
@@ -97,6 +98,7 @@ public class RestaurantRepository extends BaseRepository {
             }
         } catch (Exception e) {
             e.printStackTrace();
+            Log.e("UrlConnectionException", e.getMessage(), e);
         } finally {
             //regardless of success or failure we will disconnect from the HttpUrlConnection
             if (urlConnection != null) {
@@ -162,6 +164,7 @@ public class RestaurantRepository extends BaseRepository {
 
         } catch (JSONException e) {
             e.printStackTrace();
+            Log.e("JSON Exception", e.getMessage(), e);
         }
 
         return restaurantsList;
