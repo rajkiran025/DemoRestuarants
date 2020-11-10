@@ -5,6 +5,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.PointF;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -60,7 +62,10 @@ public class DetailsFragmentViewModel extends AndroidViewModel {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                detailedImage.set(getBitmapFromURL(featuredImage));
+                if (!TextUtils.isEmpty(featuredImage)) {
+                    if (getBitmapFromURL(featuredImage) != null)
+                        detailedImage.set(getBitmapFromURL(featuredImage));
+                }
             }
         });
         thread.start();
@@ -78,6 +83,7 @@ public class DetailsFragmentViewModel extends AndroidViewModel {
             return myBitmap;
         } catch (IOException e) {
             // Log exception
+            Log.e("ImageException", e.getMessage(), e);
             return null;
         } finally {
             connection.disconnect();
